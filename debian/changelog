@@ -1,0 +1,5 @@
+nodejs (8.4.0-1nodesource1~xenial1) xenial; urgency=low
+
+  * https://nodejs.org/en/blog/release/v8.4.0/
+
+ -- NodeSource <gpg@nodesource.com>  Wed, 16 Aug 2017 03:17:14 +0000
