@@ -1,0 +1,26 @@
+From: Michael Weber <mweber@instartlogic.com>
+Date: Mon, 12 Mar 2018 21:36:01 -0700
+Subject: FHS path for nodejs, rename man page to nodejs.
+
+Use /usr/lib/nodejs for packaged modules.
+
+Testing: manual
+Security Impact: No
+---
+ lib/module.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/module.js b/lib/module.js
+index 339a228..dcd10e6 100644
+--- a/lib/module.js
++++ b/lib/module.js
+@@ -630,7 +630,7 @@ Module._initPaths = function() {
+   } else {
+     prefixDir = path.resolve(process.execPath, '..', '..');
+   }
+-  var paths = [path.resolve(prefixDir, 'lib', 'node')];
++  var paths = [path.resolve(prefixDir, 'lib', 'nodejs')];
+ 
+   if (homeDir) {
+     paths.unshift(path.resolve(homeDir, '.node_libraries'));
+-- 

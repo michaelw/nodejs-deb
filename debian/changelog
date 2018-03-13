@@ -1,3 +1,9 @@
+nodejs (8.4.0-1nodesource1~xenial2) precise; urgency=low
+
+  * add /usr/lib/nodejs patch
+
+ -- Michael Weber <mweber@instartlogic.com>  Mon, 12 Mar 2018 21:41:12 -0700
+
 nodejs (8.4.0-1nodesource1~xenial1) xenial; urgency=low
 
   * https://nodejs.org/en/blog/release/v8.4.0/
